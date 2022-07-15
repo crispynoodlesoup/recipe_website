@@ -1,0 +1,12 @@
+.page-header {
+    background-color: pink;
+    color: white;
+    font-size: large;
+    font-family: "Comic Sans", sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+a {
+    color: pink;
+}
