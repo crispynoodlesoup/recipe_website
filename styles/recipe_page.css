@@ -1,0 +1,22 @@
+.page-header {
+    text-align: center;
+    color: white;
+    background-color: lightskyblue;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/*.header-image*/
+
+.recipe-title {
+    text-align: center;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.recipe-image {}
+
+.recipe-description {
+    text-align: center;
+}

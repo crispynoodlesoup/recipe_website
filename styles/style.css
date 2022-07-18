@@ -1,5 +1,5 @@
 .page-header {
-    background-color: pink;
+    background-color: lightpink;
     color: white;
     font-size: large;
     font-family: "Comic Sans", sans-serif;
@@ -8,5 +8,5 @@
 }
 
 a {
-    color: pink;
+    color: rgb(255, 122, 142);
 }
