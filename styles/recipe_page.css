@@ -1,67 +1,129 @@
+body {
+    background-color: rgb(253, 232, 241);
+}
+
+.content-flex {
+    display: flex;
+}
+
+.content {
+    flex: 0 1 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+nav h3 {
+    color: white;
+    background-color: lightpink;
+    border: 4px solid lightgrey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    background-color: lightskyblue;
+    border: 4px solid lightgrey;
+    padding: 10px;
+    margin-left: auto;
+    display: block;
+}
+
 .page-header {
     color: white;
     background-color: lightskyblue;
+    border: 4px solid lightgrey;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36px;
     font-weight: 600;
     padding: 5px;
+    margin: 10px 0;
 }
 
-.header-image {
+img {
+    border: 5px solid lightgrey;
     width: auto;
     margin: 0 auto;
     display: block;
 }
 
+.subject {
+    background-color: white;
+    border: 4px solid lightgrey;
+    margin: 20px auto;
+}
+
 .recipe-title {
+    color: white;
+    background-color: lightskyblue;
     text-align: center;
     font-size: 24px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: auto;
 }
 
 .recipe-description {
     max-width: 1200px;
     text-align: center;
-    padding-bottom: 10px;
-    margin: 0 auto 20px;
-    border-bottom: 2px solid lightgrey;
+    padding: 0 15px;
 }
 
 .ingredients {
+    background-color: white;
     border: 4px solid lightgrey;
     width: 300px;
     height: auto;
 }
 
 .ingredients-header {
+    color: white;
     background-color: lightskyblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
     margin: auto;
 }
 
 .ingredients-list {
-    display: inline-block;
     width: 300px;
-    padding-right: 10px;
+    padding-right: 15px;
     box-sizing: border-box;
 }
 
 .recipe {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
+    flex: 900px;
+    gap: 20px;
 }
 
 .directions {
-    padding-left: 20px;
-    flex-basis: 900px;
+    background-color: white;
+    border: 4px solid lightgrey;
+    flex: 0 1 900px;
 }
 
 .directions-header {
-    margin-top: 14px;
+    color: white;
+    background-color: lightskyblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
 }
 
 .directions-list {
-
+    padding-right: 15px;
+    box-sizing: border-box;
 }
