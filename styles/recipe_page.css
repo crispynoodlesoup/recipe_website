@@ -2,7 +2,7 @@
     color: white;
     background-color: lightskyblue;
     text-align: center;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36px;
     font-weight: 600;
     padding: 5px;
@@ -10,23 +10,28 @@
 
 .header-image {
     width: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .recipe-title {
     text-align: center;
     font-size: 24px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .recipe-description {
+    max-width: 1200px;
     text-align: center;
     padding-bottom: 10px;
+    margin: 0 auto 20px;
     border-bottom: 2px solid lightgrey;
 }
 
 .ingredients {
     border: 4px solid lightgrey;
     width: 300px;
+    height: auto;
 }
 
 .ingredients-header {
@@ -37,17 +42,24 @@
 }
 
 .ingredients-list {
+    display: inline-block;
     width: 300px;
     padding-right: 10px;
     box-sizing: border-box;
 }
 
-.directions {
+.recipe {
+    display: flex;
+    justify-content: center;
+}
 
+.directions {
+    padding-left: 20px;
+    flex-basis: 900px;
 }
 
 .directions-header {
-
+    margin-top: 14px;
 }
 
 .directions-list {
